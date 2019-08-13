@@ -7,7 +7,7 @@ This is a slight adaptation of  [STM32 Minimal Development Environment](https://
 ## Requirements
 [STM32CubeL4 from ST](https://www.st.com/en/embedded-software/stm32cubel4.html). Copy the 'Drivers' directory to the 'Drivers' directory in this project.
 
-## Building, Flashing, & Running with st-util
+# Building, Flashing, & Running with st-util
 
 1. Run 'make' in project directory
 
@@ -20,4 +20,27 @@ This is a slight adaptation of  [STM32 Minimal Development Environment](https://
     b. Run gdb command 'load'
 
     c. Run gdb command 'continue' to begin execution
+
+# Potential Future Features
+
+Some features I may add to this project in the future:
+
+- Bare metal vs RTOS implementation
+
+- Wifi/BLE data upload
+
+- Data upload, & data ingestion
+
+- Low power mode
+
+- Automated build, CI, testing
+
+- Bootloader
+
+- OTA bootloader
+
+- Secure boot
+
+- TDD
+
 
