@@ -1,4 +1,12 @@
 *.o
+*.bin
+*.elf
+*.hex
+*.lst
+*.map
 
-openocd-0.10.0/
-DataSheets/
+/openocd-0.10.0/
+/DataSheets/*
+/build/
+/Drivers/*
+
