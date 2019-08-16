@@ -1,13 +1,12 @@
-# stm32-minimal-l475
+# Sensor Hub 
 
-This project is a minimal development environment for STM32 L475; STM32 IoT Discovery Kit
+A bare metal sensor hub utilizing the following sensors: acceleromter, gyroscope, pressure, & humidity.
 
-This is a slight adaptation of  [STM32 Minimal Development Environment](https://www.purplealienplanet.com/node/69).
+## Hardware
 
-## Requirements
-[STM32CubeL4 from ST](https://www.st.com/en/embedded-software/stm32cubel4.html). Copy the 'Drivers' directory to the 'Drivers' directory in this project.
+This project uses the STM32 IoT Discovery Kit, Part number: V-L475E-IOTA.
 
-# Building, Flashing, & Running with st-util
+## Building, Flashing, & Running with st-util
 
 1. Run 'make' in project directory
 
@@ -21,7 +20,7 @@ This is a slight adaptation of  [STM32 Minimal Development Environment](https://
 
     c. Run gdb command 'continue' to begin execution
 
-# Potential Future Features
+## Potential Future Features
 
 Some features I may add to this project in the future:
 
